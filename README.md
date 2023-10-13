@@ -11,7 +11,6 @@
 - Clone project locally
   - git clone git@github.com:ieeecluster/ieeecluster.github.io.git
 - Copy previous year (2023) into 2024
-- Update the Kobe photo.
 
 ## Ongoing
 - point base on each html to 2024 instead of 2023
@@ -54,6 +53,9 @@
 
 ## Tentative
 - Update IEEE Cluster logo.
+- Update the Kobe photo.
+  - Add <p style="font-size:small;"> Photo © KOBE TOURISM BUREAU</p> to html files.
+  - Better photo cropping needed for responsive design HTML.
 
 ## Todo
 - Update theme color
