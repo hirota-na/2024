@@ -27,11 +27,16 @@
   - done
     - ./404.html
     - ./index.html
+    - ./policy.html
 
   - Ongoing
-    - ./committees/index.html
     - ./contact/index.html
-    - ./policy.html
+      - email info for public
+      - Need email info
+        - General Co-Chair	James Lin
+
+    - ./committees/index.html
+      - Latest status needed.
 
     - Tentative
       - ./venue/index.html
