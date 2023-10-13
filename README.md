@@ -68,6 +68,7 @@
     - ./workshops/call/index.html
     - ./workshops/index.html
 
+    - humans.txt
 
 ## Todo
 - Update theme color
