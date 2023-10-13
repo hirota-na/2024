@@ -53,8 +53,8 @@
   - Do them later...
     - ./venue/index.html
   
-    - ./authors/index.html
     - ./double_blind.html
+    - ./authors/index.html
     - ./keynotes/index.html
     - ./mentoring/index.html
     - ./news/index.html
