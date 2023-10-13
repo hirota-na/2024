@@ -23,34 +23,13 @@
 
 - Note
   - ./404.html
-  - ./assets/fonts/iconfont-preview.html
-  - ./authors/index.html
-  - ./committees/index.html
-  - ./contact/index.html
-  - ./double_blind.html
   - ./index.html
-  - ./keynotes/index.html
-  - ./mentoring/index.html
-  - ./news/index.html
-  - ./papers/index.html
-  - ./policy.html
-  - ./posters/index.html
-  - ./program/at_a_glance.html
-  - ./program/index.html
-  - ./registration/index.html
-  - ./sponsors/index.html
-  - ./tutorials/index.html
-  - ./venue/index.html
-  - ./workshops/call/index.html
-  - ./workshops/index.html
+  - ./committees/index.html
 
-  - ./404.html
   - ./assets/fonts/iconfont-preview.html
   - ./authors/index.html
-  - ./committees/index.html
   - ./contact/index.html
   - ./double_blind.html
-  - ./index.html
   - ./keynotes/index.html
   - ./mentoring/index.html
   - ./news/index.html
@@ -67,9 +46,11 @@
   - ./workshops/index.html
 
 
+
+## Partly done
+- Update IEEE Cluster logo
 
 ## Todo
-- Update IEEE Cluster logo
 - Update the Kobe photo.
 
 - Update robots.txt
