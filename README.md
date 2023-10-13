@@ -1,5 +1,7 @@
 # cluster2024.github.io
-[Website preview](https://hirota-na.github.io/2024/)
+- [Website preview](https://hirota-na.github.io/2024/)
+- The website is base on IEEE Cluster 2023 site https://clustercomp.org/2023/
+- No jekyll source files found...
 
 # Main Actions:
 - The items are based on https://github.com/ieeecluster/ieeecluster.github.io/blob/master/2023/README.md .
@@ -28,24 +30,25 @@
 
   - Ongoing
     - ./committees/index.html
-
-  - Do them later...
-    - ./assets/fonts/iconfont-preview.html
-    - ./authors/index.html
     - ./contact/index.html
+    - ./policy.html
+
+    - Tentative
+      - ./venue/index.html
+  
+  - Do them later...
+    - ./authors/index.html
     - ./double_blind.html
     - ./keynotes/index.html
     - ./mentoring/index.html
     - ./news/index.html
     - ./papers/index.html
-    - ./policy.html
     - ./posters/index.html
     - ./program/at_a_glance.html
     - ./program/index.html
     - ./registration/index.html
     - ./sponsors/index.html
     - ./tutorials/index.html
-    - ./venue/index.html
     - ./workshops/call/index.html
     - ./workshops/index.html
 
@@ -84,7 +87,7 @@
   - Make sure u have all timeslots correctly defined. Each id in the timeslot should be unique so that your pop ups work.  
 - Update author information - make sure we have all cps link, submission link, and author submission dates for main conference. workshop, and posters correctly updated.
 
-# Twitter ?
+# Twitter and Facebook?
 - The latest news is also shown in Twitter/ieeecluster
 
 # List of html
