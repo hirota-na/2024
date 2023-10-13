@@ -24,9 +24,9 @@
 - Progress
   - done
     - ./404.html
+    - ./index.html
 
   - Ongoing
-    - ./index.html
     - ./committees/index.html
 
   - Do them later...
@@ -55,7 +55,7 @@
 - Update IEEE Cluster logo.
 - Update the Kobe photo.
   - Add <p style="font-size:small;"> Photo © KOBE TOURISM BUREAU</p> to html files.
-  - Better photo cropping needed for responsive design HTML.
+  - Better photo cropping or positioning needed for the responsive design HTML.
 
 ## Todo
 - Update theme color
