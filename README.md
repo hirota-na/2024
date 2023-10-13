@@ -11,6 +11,7 @@
 - Clone project locally
   - git clone git@github.com:ieeecluster/ieeecluster.github.io.git
 - Copy previous year (2023) into 2024
+- Update the Kobe photo.
 
 ## Ongoing
 - point base on each html to 2024 instead of 2023
@@ -21,38 +22,41 @@
 - SantaFe to Kobe
   - $(this).backstretch("/2024/assets/img/Kobe_corr.png", { fade: 700 });
 
-- Note
-  - ./404.html
-  - ./index.html
-  - ./committees/index.html
+- Progress
+  - done
+    - ./404.html
 
-  - ./assets/fonts/iconfont-preview.html
-  - ./authors/index.html
-  - ./contact/index.html
-  - ./double_blind.html
-  - ./keynotes/index.html
-  - ./mentoring/index.html
-  - ./news/index.html
-  - ./papers/index.html
-  - ./policy.html
-  - ./posters/index.html
-  - ./program/at_a_glance.html
-  - ./program/index.html
-  - ./registration/index.html
-  - ./sponsors/index.html
-  - ./tutorials/index.html
-  - ./venue/index.html
-  - ./workshops/call/index.html
-  - ./workshops/index.html
+  - Ongoing
+    - ./index.html
+    - ./committees/index.html
+
+  - Do them later...
+    - ./assets/fonts/iconfont-preview.html
+    - ./authors/index.html
+    - ./contact/index.html
+    - ./double_blind.html
+    - ./keynotes/index.html
+    - ./mentoring/index.html
+    - ./news/index.html
+    - ./papers/index.html
+    - ./policy.html
+    - ./posters/index.html
+    - ./program/at_a_glance.html
+    - ./program/index.html
+    - ./registration/index.html
+    - ./sponsors/index.html
+    - ./tutorials/index.html
+    - ./venue/index.html
+    - ./workshops/call/index.html
+    - ./workshops/index.html
 
 
 
-## Partly done
-- Update IEEE Cluster logo
+## Tentative
+- Update IEEE Cluster logo.
 
 ## Todo
-- Update the Kobe photo.
-
+- Update theme color
 - Update robots.txt
 - Updated chairs info
 - Change image from previous to new image
