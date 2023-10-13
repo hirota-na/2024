@@ -16,53 +16,34 @@
 - point base on each html to 2024 instead of 2023
   - Change all files to point to new 2023
   - ```<base href="/2023/"> to <base href="/2024/">```
-  - ./404.html
-  - ./assets/fonts/iconfont-preview.html
-  - ./authors/index.html
-  - ./committees/index.html
-  - ./contact/index.html
-  - ./double_blind.html
-  - ./index.html
-  - ./keynotes/index.html
-  - ./mentoring/index.html
-  - ./news/index.html
-  - ./papers/index.html
-  - ./policy.html
-  - ./posters/index.html
-  - ./program/at_a_glance.html
-  - ./program/index.html
-  - ./registration/index.html
-  - ./sponsors/index.html
-  - ./tutorials/index.html
-  - ./venue/index.html
-  - ./workshops/call/index.html
-  - ./workshops/index.html
-
 - Rename Cluster 22 to 23
-  - ./404.html
-  - ./assets/fonts/iconfont-preview.html
-  - ./authors/index.html
-  - ./committees/index.html
-  - ./contact/index.html
-  - ./double_blind.html
-  - ./index.html
-  - ./keynotes/index.html
-  - ./mentoring/index.html
-  - ./news/index.html
-  - ./papers/index.html
-  - ./policy.html
-  - ./posters/index.html
-  - ./program/at_a_glance.html
-  - ./program/index.html
-  - ./registration/index.html
-  - ./sponsors/index.html
-  - ./tutorials/index.html
-  - ./venue/index.html
-  - ./workshops/call/index.html
-  - ./workshops/index.html
-
+- Rename Cluster 23 to 24
 - SantaFe to Kobe
   - $(this).backstretch("/2024/assets/img/Kobe_corr.png", { fade: 700 });
+
+- Note
+  - ./404.html
+  - ./assets/fonts/iconfont-preview.html
+  - ./authors/index.html
+  - ./committees/index.html
+  - ./contact/index.html
+  - ./double_blind.html
+  - ./index.html
+  - ./keynotes/index.html
+  - ./mentoring/index.html
+  - ./news/index.html
+  - ./papers/index.html
+  - ./policy.html
+  - ./posters/index.html
+  - ./program/at_a_glance.html
+  - ./program/index.html
+  - ./registration/index.html
+  - ./sponsors/index.html
+  - ./tutorials/index.html
+  - ./venue/index.html
+  - ./workshops/call/index.html
+  - ./workshops/index.html
+
   - ./404.html
   - ./assets/fonts/iconfont-preview.html
   - ./authors/index.html
@@ -88,6 +69,9 @@
 
 
 ## Todo
+- Update IEEE Cluster logo
+- Update the Kobe photo.
+
 - Update robots.txt
 - Updated chairs info
 - Change image from previous to new image
@@ -99,7 +83,6 @@
 - update header image
 - Updated chairs in papers, posters and workshops
 - Update Venue info
-- Update IEEE Cluster logo
 - Before publishing make index.html broken_index.html
 - Change CPFs to TBD
 - Fix Sponsor amounts
