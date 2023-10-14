@@ -46,6 +46,8 @@
   - TBA
     - ./authors/index.html
     - ./keynotes/index.html
+    - ./mentoring/index.html
+    - ./papers/index.html
 
   - Ongoing
     - ./contact/index.html
@@ -59,8 +61,6 @@
   - Do them later...
     - ./venue/index.html
   
-    - ./mentoring/index.html
-    - ./papers/index.html
     - ./posters/index.html
     - ./program/at_a_glance.html
     - ./program/index.html
