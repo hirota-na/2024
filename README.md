@@ -20,7 +20,6 @@
 ## Pending
 - Waiting for IEEE Cluster 2024 logo.
 - Update header photo
-  - Added <p style="font-size:small;"> Photo © KOBE TOURISM BUREAU</p> to html files.
   - Better photo cropping and/or positioning needed for the responsive design HTML.
 - Twitter and Facebook?
   - ``The latest news is also shown in Twitter/ieeecluster''
@@ -32,7 +31,6 @@
 - Rename Cluster 22 to 23 (pointing the last conference website)
 - Rename Cluster 23 to 24
 - Updating venue.
-  - Santa Fe (2023) to Kobe (2024).
 
 - Progress
   - Done
@@ -42,7 +40,6 @@
     - ./policy.html
     - ./double_blind.html
     - ./news/index.html
-
   - TBA
     - ./authors/index.html
     - ./keynotes/index.html
@@ -55,21 +52,16 @@
     - ./tutorials/index.html
     - ./workshops/call/index.html
     - ./workshops/index.html
-
   - Tentative
     - ./contact/index.html
       - No email info for public.
       - Need James Lin's email info.
-        
+       
     - ./committees/index.html
       - Based on old status.
       - Latest status needed.
-
-  - To do
-      
     - ./venue/index.html
-
-  - Not touched
+  - Not changed
     - ./program/at_a_glance.html
     - humans.txt
 
