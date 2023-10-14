@@ -53,6 +53,8 @@
     - ./registration/index.html
     - ./sponsors/index.html
     - ./tutorials/index.html
+    - ./workshops/call/index.html
+    - ./workshops/index.html
 
   - Ongoing
     - ./contact/index.html
@@ -66,9 +68,6 @@
   - Do them later...
     - ./venue/index.html
     - ./program/at_a_glance.html
-  
-    - ./workshops/call/index.html
-    - ./workshops/index.html
 
     - humans.txt
 
