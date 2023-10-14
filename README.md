@@ -48,6 +48,8 @@
     - ./keynotes/index.html
     - ./mentoring/index.html
     - ./papers/index.html
+    - ./posters/index.html
+    - ./program/index.html
 
   - Ongoing
     - ./contact/index.html
@@ -60,10 +62,8 @@
 
   - Do them later...
     - ./venue/index.html
-  
-    - ./posters/index.html
     - ./program/at_a_glance.html
-    - ./program/index.html
+  
     - ./registration/index.html
     - ./sponsors/index.html
     - ./tutorials/index.html
