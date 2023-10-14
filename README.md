@@ -40,6 +40,8 @@
     - ./404.html
     - ./index.html
     - ./policy.html
+    - ./double_blind.html
+    - ./authors/index.html
 
   - Ongoing
     - ./contact/index.html
@@ -53,8 +55,6 @@
   - Do them later...
     - ./venue/index.html
   
-    - ./double_blind.html
-    - ./authors/index.html
     - ./keynotes/index.html
     - ./mentoring/index.html
     - ./news/index.html
