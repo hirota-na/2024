@@ -35,13 +35,17 @@
   - Santa Fe (2023) to Kobe (2024).
 
 - Progress
-  - done
+  - Done
     - robots.txt
     - ./404.html
     - ./index.html
     - ./policy.html
     - ./double_blind.html
+    - ./news/index.html
+
+  - TBA
     - ./authors/index.html
+    - ./keynotes/index.html
 
   - Ongoing
     - ./contact/index.html
@@ -55,9 +59,7 @@
   - Do them later...
     - ./venue/index.html
   
-    - ./keynotes/index.html
     - ./mentoring/index.html
-    - ./news/index.html
     - ./papers/index.html
     - ./posters/index.html
     - ./program/at_a_glance.html
