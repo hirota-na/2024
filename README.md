@@ -51,6 +51,7 @@
     - ./posters/index.html
     - ./program/index.html
     - ./registration/index.html
+    - ./sponsors/index.html
 
   - Ongoing
     - ./contact/index.html
@@ -65,7 +66,6 @@
     - ./venue/index.html
     - ./program/at_a_glance.html
   
-    - ./sponsors/index.html
     - ./tutorials/index.html
     - ./workshops/call/index.html
     - ./workshops/index.html
