@@ -56,19 +56,21 @@
     - ./workshops/call/index.html
     - ./workshops/index.html
 
-  - Ongoing
+  - Tentative
     - ./contact/index.html
-      - email info for public
-      - Need email info
-        - General Co-Chair	James Lin
-
+      - No email info for public.
+      - Need James Lin's email info.
+        
     - ./committees/index.html
+      - Based on old status.
       - Latest status needed.
 
-  - Do them later...
+  - To do
+      
     - ./venue/index.html
-    - ./program/at_a_glance.html
 
+  - Not touched
+    - ./program/at_a_glance.html
     - humans.txt
 
 ## Todo
