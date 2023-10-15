@@ -30,7 +30,13 @@
   - ```<base href="/2023/"> to <base href="/2024/">```
 - Rename Cluster 22 to 23 (pointing the last conference website)
 - Rename Cluster 23 to 24
-- Updating venue.
+- Update Venue info
+- Update venue into dev
+- Fix gmaps location
+- Updated chairs info
+- Updated chairs in papers, posters and workshops
+- Change image from previous to new image
+- Change Date and location
 
 - Progress
   - Done
@@ -53,34 +59,27 @@
     - ./workshops/call/index.html
     - ./workshops/index.html
   - Tentative
+    - ./venue/index.html
+      - Use the R-CCS building?
     - ./contact/index.html
       - No email info for public.
       - Need James Lin's email info.
-       
     - ./committees/index.html
       - Based on old status.
       - Latest status needed.
-    - ./venue/index.html
   - Not changed
     - ./program/at_a_glance.html
     - humans.txt
 
 ## Todo
 - Update theme color
-- Updated chairs info
-- Change image from previous to new image
-- Change Date and location
-- Update venue into dev
-- Fix gmaps location
-- update footer 2021 line
+- update footer line
 - Add sponsors chair
-- Updated chairs in papers, posters and workshops
-- Update Venue info
 - Before publishing make index.html broken_index.html
-- Change CPFs to TBD
+- Change CFPs to TBD
 - Fix Sponsor amounts
 - Make sure sponsors are correctly worded
-- Update Workshop CPF
+- Update Workshop CFP
 - Update Committee information
 - Update CFP
 - Update Visa information
