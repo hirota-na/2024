@@ -47,6 +47,7 @@
     - ./double_blind.html
     - ./news/index.html
     - ./contact/index.html
+    - ./committees/index.html
   - TBA
     - ./authors/index.html
     - ./keynotes/index.html
@@ -62,9 +63,6 @@
   - Tentative
     - ./venue/index.html
       - Use the R-CCS building?
-    - ./committees/index.html
-      - Based on old status.
-      - Latest status needed.
   - Not changed
     - ./program/at_a_glance.html
     - humans.txt
