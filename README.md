@@ -46,6 +46,7 @@
     - ./policy.html
     - ./double_blind.html
     - ./news/index.html
+    - ./contact/index.html
   - TBA
     - ./authors/index.html
     - ./keynotes/index.html
@@ -61,9 +62,6 @@
   - Tentative
     - ./venue/index.html
       - Use the R-CCS building?
-    - ./contact/index.html
-      - No email info for public.
-      - Need James Lin's email info.
     - ./committees/index.html
       - Based on old status.
       - Latest status needed.
