@@ -20,7 +20,6 @@
 ## Pending
 - Waiting for IEEE Cluster 2024 logo.
 - Update header photo
-  - Added <p style="font-size:small;"> Photo © KOBE TOURISM BUREAU</p> to html files.
   - Better photo cropping and/or positioning needed for the responsive design HTML.
 - Twitter and Facebook?
   - ``The latest news is also shown in Twitter/ieeecluster''
@@ -31,60 +30,52 @@
   - ```<base href="/2023/"> to <base href="/2024/">```
 - Rename Cluster 22 to 23 (pointing the last conference website)
 - Rename Cluster 23 to 24
-- Updating venue.
-  - Santa Fe (2023) to Kobe (2024).
+- Update Venue info
+- Update venue into dev
+- Fix gmaps location
+- Updated chairs info
+- Updated chairs in papers, posters and workshops
+- Change image from previous to new image
+- Change Date and location
 
 - Progress
-  - done
+  - Done
     - robots.txt
     - ./404.html
     - ./index.html
     - ./policy.html
-
-  - Ongoing
-    - ./contact/index.html
-      - email info for public
-      - Need email info
-        - General Co-Chair	James Lin
-
-    - ./committees/index.html
-      - Latest status needed.
-
-  - Do them later...
-    - ./venue/index.html
-  
-    - ./authors/index.html
     - ./double_blind.html
+    - ./news/index.html
+    - ./contact/index.html
+    - ./committees/index.html
+  - TBA
+    - ./authors/index.html
     - ./keynotes/index.html
     - ./mentoring/index.html
-    - ./news/index.html
     - ./papers/index.html
     - ./posters/index.html
-    - ./program/at_a_glance.html
     - ./program/index.html
     - ./registration/index.html
     - ./sponsors/index.html
     - ./tutorials/index.html
     - ./workshops/call/index.html
     - ./workshops/index.html
-
+  - Tentative
+    - ./venue/index.html
+      - Use the R-CCS building?
+  - Not changed
+    - ./program/at_a_glance.html
+    - humans.txt
 
 ## Todo
 - Update theme color
-- Updated chairs info
-- Change image from previous to new image
-- Change Date and location
-- Update venue into dev
-- Fix gmaps location
-- update footer 2021 line
+- update footer line
 - Add sponsors chair
-- Updated chairs in papers, posters and workshops
-- Update Venue info
 - Before publishing make index.html broken_index.html
-- Change CPFs to TBD
+- Change CFPs to TBD
 - Fix Sponsor amounts
 - Make sure sponsors are correctly worded
-- Update Workshop CPF
+- Update Workshop CFP
 - Update Committee information
 - Update CFP
 - Update Visa information
