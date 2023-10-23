@@ -15,14 +15,14 @@
 - Copy previous year (2023) into 2024
 - Update robots.txt
 - Update sitemap.xml
+- Update Committee information
 
 
 ## Pending
 - Waiting for IEEE Cluster 2024 logo.
 - Update header photo
-  - Better photo cropping and/or positioning needed for the responsive design HTML.
+  - Better photo cropping and/or positioning for the responsive design HTML.
 - Twitter and Facebook?
-  - ``The latest news is also shown in Twitter/ieeecluster''
 
 ## Ongoing: Updating html files.
 - point base on each html to 2024 instead of 2023
@@ -48,7 +48,7 @@
     - ./news/index.html
     - ./contact/index.html
     - ./committees/index.html
-  - TBA
+  - Tentative
     - ./authors/index.html
     - ./keynotes/index.html
     - ./mentoring/index.html
@@ -60,7 +60,6 @@
     - ./tutorials/index.html
     - ./workshops/call/index.html
     - ./workshops/index.html
-  - Tentative
     - ./venue/index.html
       - Use the R-CCS building?
   - Not changed
@@ -76,7 +75,6 @@
 - Fix Sponsor amounts
 - Make sure sponsors are correctly worded
 - Update Workshop CFP
-- Update Committee information
 - Update CFP
 - Update Visa information
 - Update Registration info.
@@ -109,5 +107,3 @@ find . -name '*.html'
 - ./venue/index.html
 - ./workshops/call/index.html
 - ./workshops/index.html
-
-
