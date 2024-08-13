@@ -574,24 +574,25 @@
                     <div class="session-chair">TBD</div>
                     <div class="slot-title">
                         <div class="slot-wrapper">
-                            <span class="ttip_object_info_very_wide">
-                                        Accelerating Distributed ML Training via Selective Synchronization<i class="fa fa-caret-right"></i>
+                            <span class="ttip_object_info_very_wide" rel="#bpfta1_info" title="#bpfta1_title">>
+                            GPU Reliability Assessment: Insights Across the Abstraction Layers
                             </span>
                             <div class="info_link_object_info" style="display: none;">
-                                <div id="s1ta1_popup">
-                                    <b id="s1ta1_title">
-                                        Accelerating Distributed ML Training via Selective Synchronization
+                                <div>
+                                    <b id="#bpfta1_title">
+                                    GPU Reliability Assessment: Insights Across the Abstraction Layers
                                     </b>
                                     <hr/>
-                                    <div id="s1ta1_info">
-                                        <div>
+                                    <div>
+                                        <div id="#bpfta1_info">
                                             <div class="author-names">
-                                                Sahil Tyagi (Indiana University Bloomington), and Martin Swany (Indiana University)
+                                            Lishan Yang (George Mason University), George Papadimitriou (University of Athens), Dimitrios Sartzetakis (University of Athens), Adwait Jog (University of Virginia), Evgenia Smirni (William & Mary), Dimitris Gizopoulos (University of Athens) 
                                             </div>
                                             <div>
                                                 <div>Abstract
                                                     <blockquote>
-                                                        <p>In distributed training, deep neural networks (DNNs) are launched over multiple workers concurrently and aggregate their local updates on each step in bulk-synchronous parallel (BSP) training. However, BSP does not linearly scale-out due to high communication cost of aggregation. To mitigate this overhead, alternatives like Federated Averaging (FedAvg) and Stale-Synchronous Parallel (SSP) either reduce synchronization frequency or eliminate it altogether, usually at the cost of lower final accuracy. In this paper, we present SelSync, a practical, low-overhead method for DNN training that dynamically chooses to incur or avoid communication at each step either by calling the aggregation op or applying local updates based on their significance. We propose various optimizations as part of SelSync to improve convergence in the context of semi-synchronous training. In our evaluation, SelSync converges to the same or better accuracy than BSP while reducing training time by up to 14x.
+                                                        <p>
+                                                        Graphics Processing Units (GPUs) are widely deployed and utilized across various computing domains including cloud and high-performance computing. Considering its extensive usage and increasing popularity, ensuring GPU reliability is crucial. Software-based reliability evaluation methodologies, though fast, often neglect the complex hardware details of modern GPU designs. This oversight could lead to misleading measurements and misguided decisions regarding protection strategies. This paper breaks new ground by conducting an in-depth examination of well-established vulnerability assessment methods for modern GPU architectures, from the microarchitecture all the way to the software layers. It highlights divergences between popular software-based vulnerability evaluation methods and the ground truth cross-layer evaluation, which persist even under strong protections like triple modular redundancy. Accurate evaluation requires considering fault distribution from hardware to software. Our comprehensive measurements offer valuable insights into accurate assessment of GPU reliability.
                                                         </p>
                                                     </blockquote>
                                                 </div>
