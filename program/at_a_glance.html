@@ -1906,8 +1906,102 @@
                     <hr/>
                 </div>
                 <div class="program-session">
-                    <div class="session-title">Session (12)</div>
+                    <div class="session-title">Session (12) Storage & I/O</div>
                     <div class="room-name">Room 401/402</div>
+                    <div class="session-chair">Chair: TBD</div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s12ta1_info" title="#s12ta1_title">
+                            I/O Behind the Scenes: Bandwidth Requirements of HPC Applications With Asynchronous I/O
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s12ta1_title">
+                                    I/O Behind the Scenes: Bandwidth Requirements of HPC Applications With Asynchronous I/O
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s12ta1_info">
+                                            <div class="author-names">
+                                            Ahmad Tarraf (Technical University of Darmstadt), Javier Fernandez Muñoz (University Carlos III of Madrid), David E. Singh (University Carlos III of Madrid), Taylan Özden (Technical University of Darmstadt), Jesus Carretero (University Carlos III of Madrid), Felix Wolf (Technical University of Darmstadt)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        I/O bandwidth is a critical resource in an HPC cluster. As with all shared resources, its availability is impacted significantly by the users and the applications they execute. Without proper restrictions, jobs consuming more prominent portions of the I/O bandwidth can severely affect other jobs by notably prolonging their runtime. In such a context, applications that perform asynchronous I/O bring unique properties that allow for the reduction of such effects. That is, by limiting the bandwidth to the required one to perform the I/O in the background of the compute phases, I/O bursts can be flattened without significantly prolonging the application time, if at all. Hence, the bandwidth consumption of such applications is limited to what they need, sparing much of the system bandwidth to other applications. At the same time, these applications achieve higher parallel efficiency due to the overlapping of different resources (e.g., compute and I/O). This paper shows these aspects and demonstrates our approach to find the required bandwidth for applications that use asynchronous I/O. Moreover, we apply it automatically using an MPI implementation of a bandwidth limitation approach at the application level. We validate our approach with several experiments on a large production cluster and show the impact of our approach on the application behavior and its importance for the system throughout.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s12ta2_info" title="#s12ta2_title">
+                            FINCHFS: Design of Ad-Hoc File System for I/O Heavy HPC Workloads
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s12ta2_title">
+                                    FINCHFS: Design of Ad-Hoc File System for I/O Heavy HPC Workloads
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s12ta2_info">
+                                            <div class="author-names">
+                                            Sohei Koyama (University of Tsukuba), Kohei Hiraga (University of Tsukuba), Osamu Tatebe (University of Tsukuba)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Although the performance improvements in parallel file systems have been significant, the rise of data science and deep learning using Python has introduced new I/O requirements. We redefine ad-hoc file systems as a complement to parallel file systems by specializing in requirements that cannot be met by improvements to parallel file systems. Ad hoc file systems require extremely high metadata performance and the ability to scale to create and read large numbers of files in parallel in a single directory. Therefore, it is necessary to process a large number of small RPCs with low latency and high throughput, which cannot be achieved with existing ad-hoc file systems. In this research, we propose a new ad-hoc file system, FINCHFS, and realize the truly desired ad-hoc file system using intranode shared-nothing architecture and number-aware hashing. The contribution of the intra-node shared-nothing architecture is the ability to run multiple iterative server processes on each node to achieve high IOPS using many-core. The contribution of number-aware hashing is to alleviate tail latency degradation due to the uneven distribution of requests to servers. In the evaluation using 64 nodes on the Pegasus supercomputer, we achieved 32.5 MIOPS in mdtest-hard-write.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s12ta3_info" title="#s12ta3_title">
+                            A High-Performance and Fast-Recovery Scheme for Secure Non-Volatile Memory Systems
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s12ta3_title">
+                                    A High-Performance and Fast-Recovery Scheme for Secure Non-Volatile Memory Systems
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s12ta3_info">
+                                            <div class="author-names">
+                                            Yujie Shi (Huazhong University of Science and Technology), Yu Hua (Huazhong University of Science and Technology), Jianming Huang (Huazhong University of Science and Technology)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Non-Volatile Memory (NVM) delivers high performance due to efficiently coalescing the properties of memory and storage while suffering from high security risks. To protect data, NVM systems introduce secure mechanisms, e.g., counter mode encryption and integrity verification, which necessitate extra security metadata. Unfortunately, these metadata are possibly lost when the system crashes, making data inaccessible. To ensure normal system operation after reboot, it is critical to recover these security metadata. The SGX-style integrity tree (SIT) can provide integrity verification for user data with high performance. Unfortunately, it is challenging for SIT to recover and verify the stale tree nodes due to the complex inter-layer dependency and the root inconsistency problem. In this paper, we propose Steins, to bridge the gap between fast recovery and high performance in secure NVM systems. Based on the consistency between the lost node and their persistent child nodes, Steins proposes an efficient counter generation scheme to make SIT recoverable. Moreover, Steins utilizes the offset-based tracking mechanism to locate the stale nodes during recovery. More importantly, to prevent attacks during recovery, Steins introduces efficient trust bases for verification. The evaluation results show that compared with state-of-the-art recovery schemes, Steins shows high runtime performance and short recovery time, while supporting low metadata storage overhead.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div style="clear: both;"></div>
             </div>
