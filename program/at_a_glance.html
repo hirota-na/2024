@@ -681,15 +681,203 @@
             </div>
             <div class="timeslot"><h3 class="session-time">14:00-15:30</h3>
                 <div class="program-session">
-                    <div class="session-title">Session (1)</div>
+                    <div class="session-title">Session (1) Graph Algorithms & GNNs</div>
                     <div class="room-name">International Conference Room</div>
+                    <div class="session-chair">Chair: TBD</div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s1ta1_info" title="#s1ta1_title">
+                            FTGraph: A Flexible Tree-based Graph Store on Persistent Memory for Large-Scale Dynamic Graphs
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s1ta1_title">
+                                    FTGraph: A Flexible Tree-based Graph Store on Persistent Memory for Large-Scale Dynamic Graphs
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s1ta1_info">
+                                            <div class="author-names">
+                                            Gan Sun (University of Chinese Academy of Sciences), Jiang Zhou (University of Chinese Academy of Sciences), Shuibing He (Zhejiang University), Bo Li (Institute of Information Engineering, CAS), Xiaoyan Gu (Institute of Information Engineering, CAS), Weiping Wang (Institute of Information Engineering, CAS)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Traditional in-memory graph systems often suffer from scalability due to the limited capacity and volatility of DRAM. Emerging non-volatile memory (NVM) provides an opportunity to achieve highly scalable and high-performance graph stores for its large capacity and persistence characteristics. However, directly deploying current in-memory graph storage systems on NVM would cause significant inefficiencies in NVM access, as their graph organization designed for DRAM may incur higher write amplification, crash inconsistency and costly concurrency control overhead in NVM for write-intensive workloads. In this paper, we propose FTGraph, a Flexible Tree-based Graph storage system, for both efficient dynamical graph updates and analysis. To achieve this goal, we introduce a novel degree-aware suffix bit tree to effectively manage vertices and edges of the graph, enabling adaptability to real-world power-law degree distributions while significantly reducing NVM writes. Based on it, we adopt two optimization methods, logical vertex ID translation and sequential storage, for vertices with very high degrees within the tree to enhance graph analysis operations. We further integrate 8B NVM atomic writes with optimistic version-based concurrency control through a dual bitmap design to ensure low-overhead, log-free crash consistency and reduce read-writer contention. Experimental results show that FTGraph achieves up to 21.2$\times$ higher update performance and up to 85.4$\times$ higher analysis performance, compared with state-of-the-art dynamic graph systems implemented on NVMs.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s1ta2_info" title="#s1ta2_title">
+                            PGSampler: Accelerating GPU-based Graph Sampling in GNN Systems via Workload Fusion
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s1ta2_title">
+                                    PGSampler: Accelerating GPU-based Graph Sampling in GNN Systems via Workload Fusion
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s1ta2_info">
+                                            <div class="author-names">
+                                            Xiaohui Wei (Jilin University), Weikai Tang (Jilin University), Hao Qi (Huazhong University of Science and Technology), Hengshan Yue (Jilin University)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Graph Neural Networks (GNNs) have demonstrated remarkable performance across various domains. Sample-based training, a practical strategy for training on large-scale graphs, often faces time-consuming graph sampling challenges. To ad- dress this, GPU-based graph sampling has been introduced, while there is still room for further efficiency improvements. Though several prior works have been proposed to accelerate the compu- tation or memory access for GPU-based graph sampling, we show that the performance bottlenecks induced by small workload cannot be ignored. In this paper, we propose PGSampler, an efficient system for accelerating GPU-based graph sampling. First, PGSampler leverages a barrier-free execution mode to fuse workload, significantly improving the resource utilization. By altering the sampling execution mode, PGSampler also reduces the preprocessing time before kernel execution, thus accelerating the whole sampling process. Next, based on the new sampling execution mode, considering the dynamically generated nature of sampling tasks, PGSampler adopts a persistent kernel design and uses the task queue to assign tasks, achieving dynamic load balancing. Evaluations with diverse parameter settings show that PGSampler can achieve up to 2.22× performance speedup over the state-of-the-art GNN system DGL.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s1ta3_info" title="#s1ta3_title">
+                            MassiveGNN: Efficient Training via Prefetching for Massively Connected Distributed Graphs
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s1ta3_title">
+                                    MassiveGNN: Efficient Training via Prefetching for Massively Connected Distributed Graphs
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s1ta3_info">
+                                            <div class="author-names">
+                                            Aishwarya Sarkar (Iowa State University), Sayan Ghosh (Pacific Northwest National Laboratory), Nathan Tallent (Pacific Northwest National Laboratory), Ali Jannesari (Iowa State University)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Graph Neural Networks (GNN) are indispensable in learning from graph-structured data, yet their rising computational costs, especially on massively connected graphs, pose significant challenges in terms of execution performance. To tackle this, distributed-memory solutions such as partitioning the graph to concurrently train multiple replicas of GNNs are in practice. However, approaches requiring a partitioned graph usually suffer from communication overhead and load imbalance, even under optimal partitioning and communication strategies due to irregularities in the neighborhood minibatch sampling. This paper proposes practical trade-offs for improving the sampling and communication overheads for representation learning on distributed graphs (using popular GraphSAGE architecture) by developing a parameterized prefetch and eviction scheme on top of the state-of-the-art Amazon DistDGL distributed GNN framework, demonstrating about 15--40% improvement in end-to-end training performance on the NERSC Perlmutter supercomputer for various OGB datasets.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="hr">
                     <hr/>
                 </div>
                 <div class="program-session">
-                    <div class="session-title">Session (2)</div>
+                    <div class="session-title">Session (2) Performance Modeling</div>
                     <div class="room-name">Room 401/402</div>
+                    <div class="session-chair">Chair: TBD</div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s2ta1_info" title="#s2ta1_title">
+                            A Protocol to Assess the Accuracy of Process-Level Power Models
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s2ta1_title">
+                                    A Protocol to Assess the Accuracy of Process-Level Power Models
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s2ta1_info">
+                                            <div class="author-names">
+                                            Emile Cadorel (Davidson consulting), Dimitri Saingre (Davidson consulting)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        The energy consumption of servers has been a critical research area, drawing significant interest from academic and industrial sectors. Various models have been developed to estimate power consumption of computing devices, ranging from simple linear models to more complex ones. In recent years, as the cloud paradigm has expanded and allowed applications to be hosted alongside others in virtual machines, power models have evolved to distribute energy usage among applications on a server. These models aim to achieve two primary objectives: monitoring the energy footprint and optimizing energy consumption. Nonetheless, little attention has been given in academic literature to evaluate the efficiency and accuracy of the allocation phase of this models. This paper presents a definition of power division and a protocol to evaluate models using such division. The proposed protocol is used to evaluate models on physical machines with different performance settings, toggling hyperthreading and turboboost. Before discussing the conceptual distinctions between power and energy allocation models, our results show the existence of some limitations in the existing models. These results provide valuable insight into the missing information needed to improve the accuracy of power models.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s2ta2_info" title="#s2ta2_title">
+                            Holistic Performance Analysis for Asynchronous Many-Task Runtimes
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s2ta2_title">
+                                    Holistic Performance Analysis for Asynchronous Many-Task Runtimes
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s2ta2_info">
+                                            <div class="author-names">
+                                            Omri Mor (University of Illinois Urbana–Champaign), George Bosilca (Nvidia Corporation), Marc Snir (University of Illinois Urbana–Champaign)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        There has been a renewed interest in Asynchronous Many-Task (AMT) computation runtimes due to increasingly heterogeneous computing resources and complex application logic. However, AMT scheduling is typically non-deterministic, and their task dependency graphs are complex and irregular, making it difficult to identify performance bottlenecks using current performance tools and analysis methodologies. This paper presents a new performance analysis methodology and a performance sampling tool that combines data from both computation and communication to support this methodology. The tool is integrated with the PaRSEC runtime. To illustrate the approach, the performance analysis of HiCMA, a state-of-the-art tile-based low-rank Cholesky factorization package, was conducted. The analysis identified bottlenecks in both the PaRSEC runtime and the application itself and suggested changes necessary to overcome them. After implementing the changes, there was up to a 1.45x speedup in time-to-solution when strong-scaling the application.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s2ta3_info" title="#s2ta3_title">
+                            Automated approach for accurate CPU power modelling
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s2ta2_title">
+                                    Automated approach for accurate CPU power modelling
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s2ta2_info">
+                                            <div class="author-names">
+                                            Tomé Maseda (Universidade da Coruña), Jonatan Enes (Universidade da Coruña), Roberto R. Expósito (Universidade da Coruña), Juan Touriño (Universidade da Coruña)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Power supply is a limiting factor when increasing the computing capacity of supercomputers. As a consequence, power consumption has become one of the biggest challenges in the field of High Performance Computing (HPC). In order to develop energy-efficient tools (e.g., frameworks, applications), it is essential to have an accurate power consumption modelling. Although previous works proposed a wide variety of approaches to model CPU power consumption, building models in an automated and adaptable way to changing scenarios and predicting power with high precision remains complex due to multiple factors (e.g., training and test workloads, model variables). In this paper, we present a set of tools to fully automate the process of modelling power consumption using CPU time series data. More specifically, our proposal includes: (1) CPUPowerWatcher, which gathers CPU metrics during the execution of user-configurable workloads; and (2) CPUPowerSeer, which builds models to predict CPU power consumption (e.g., polynomial regression) from different CPU variables (e.g., usage, clock frequency) using time series data. Thus, multiple models can be created and evaluated easily, allowing the selection of an optimal model for a specific workload. The experiments conducted by combining these tools allow analyzing the impact of novel factors on CPU power consumption, such as the type of CPU usage generated by different workloads or how the CPU cores are allocated to them. In addition, the accuracy of six regression models is compared when predicting CPU- and I/O-intensive workloads using two different core allocations.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div style="clear: both;"></div>
             </div>
