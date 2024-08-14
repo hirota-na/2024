@@ -1209,12 +1209,12 @@
                             </span>
                             <div class="info_link_object_info" style="display: none;">
                                 <div>
-                                    <b id="s5ta2_title">
+                                    <b id="s5ta3_title">
                                     RL-Cache: An Efficient Reinforcement Learning based Cache Partitioning Approach for Multi-tenant CDN Services
                                     </b>
                                     <hr/>
                                     <div>
-                                        <div id="s5ta2_info">
+                                        <div id="s5ta3_info">
                                             <div class="author-names">
                                             Ranhao Jia (Shanghai Jiao Tong University), Zixiao Chen (Shanghai Jiao Tong University), Chentao Wu (Shanghai Jiao Tong University), Jie Li (Shanghai Jiao Tong University), Minyi Guo (Shanghai Jiao Tong University), Hongwen Huang (Tencent Holdings Limited)
                                             </div>
@@ -1238,8 +1238,102 @@
                     <hr/>
                 </div>
                 <div class="program-session">
-                    <div class="session-title">Session (6)</div>
+                    <div class="session-title">Session (6) Runtime Optimizations</div>
                     <div class="room-name">Room 401/402</div>
+                    <div class="session-chair">Chair: TBD</div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s6ta1_info" title="#s6ta1_title">
+                            FCUFS: Core-Level Frequency Tuning for Energy Optimization on Intel Processors
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s6ta1_title">
+                                    FCUFS: Core-Level Frequency Tuning for Energy Optimization on Intel Processors
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s6ta1_info">
+                                            <div class="author-names">
+                                            Hongjian Zhang (Shanghai Jiao Tong University), Akira Nukada (University of Tsukuba), Qiucheng Liao (Shanghai Jiao Tong University)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Sacrificing minor performance for better energy efficiency is effective in reducing the energy consumption of supercomputers. Recent studies have utilized some frequency tuning and power capping features of Intel processors to decrease energy consumption in supercomputers. However, two main issues persist: 1) current methods do not account for variability between cores, leading to insufficient energy savings in mixed workloads; and 2) they fail to control the extent of performance loss following frequency tuning. To address these issues, we developed the FCUFS framework, which includes two components: 1) a neural network for predicting performance and power; and 2) a strategy optimization algorithm for selecting frequencies with controllable performance loss. We evaluated FCUFS on Intel mainstream processors across 15 dedicated workloads and 5 mixed workloads. On a single dual-socket Ice Lake-SP server, at a 5% performance loss target, the average energy savings were 11.4% for dedicated workloads and 13.8% for mixed workloads, with average performance losses of 2.9% and 3.5%, respectively. At a 10% performance loss target, the energy savings increased to 14.2% for dedicated workloads and 14.4% for mixed workloads, with performance losses of 8.7% and 9.4%, respectively. When scaling up to 2,048 cores, the average energy savings were 9.7% with 4.4% performance loss. The results show that FCUFS achieves consistent energy savings across dedicated and mixed workloads while maintaining controllable performance loss.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s6ta2_info" title="#s6ta2_title">
+                            ML-based Dynamic Operator-Level Query Mapping for Stream Processing Systems in Heterogeneous Computing Environments
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s6ta2_title">
+                                    ML-based Dynamic Operator-Level Query Mapping for Stream Processing Systems in Heterogeneous Computing Environments
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s6ta2_info">
+                                            <div class="author-names">
+                                            Sejeong Oh (Sogang University), Gordon Euhyun Moon (Sogang University), Sungyong Park (Sogang University)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Mapping queries to optimal computing devices at the operator-level presents a significant challenge in stream processing systems (SPS) with heterogeneous computing resources. Inefficient query mapping can degrade the performance of the SPS. To address this issue, existing approaches utilize static methods like mapping all queries to either CPUs or GPUs, or maintaining static mapping tables for queries or operators based on their predetermined device preferences. However, the static mapping scheme fails to offer an optimal solution, as the device preference for different query operators changes dynamically at runtime. In this paper, we propose DYNO, a high-performance SPS that dynamically maps queries to devices at the operator-level using a tree-based machine learning algorithm. To effectively determine an optimized device mapping plan for query operators, DYNO employs a tree-based gradient boosting model to accurately predict the execution time for all potential mapping plan combinations. DYNO also introduces a novel turn-based updating scheme to effectively maximize performance in stream processing while training a tree-based gradient boosting model. Additionally, we devise an efficient device mapping scheme to expedite the process of determining the optimal device mapping plan, leveraging the direct acyclic graph (DAG) algorithm. Our DYNO completely hides any overhead caused by the extra computation to find the optimal plan by utilizing prefetching and GPU idle periods. Experimental results using a variety of queries and traffic patterns show that our DYNO outperforms existing state-of-the-art approaches by ensuring high throughput, low latency, and highly reliable processing.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s6ta3_info" title="#s6ta3_title">
+                            Enabling Practical Transparent Checkpointing for MPI: A Topological Sort Approach
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s6ta3_title">
+                                    Enabling Practical Transparent Checkpointing for MPI: A Topological Sort Approach
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s6ta3_info">
+                                            <div class="author-names">
+                                            Yao Xu (Northeastern University), Gene Cooperman (Northeastern University)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        MPI is the de facto standard for parallel computing on a cluster of computers. Checkpointing is an important component in any strategy for software resilience and for long- running jobs that must be executed by chaining together time- bounded resource allocations. This work solves an old problem: a practical and general algorithm for transparent checkpointing of MPI that is both efficient and compatible with most of the latest network software. Transparent checkpointing is attractive due to its generality and ease of use for most MPI application developers. Earlier efforts at transparent checkpointing for MPI, one decade ago, had two difficult problems: (i) by relying on a specific MPI implementation tied to a specific network technology; and (ii) by failing to demonstrate sufficiently low runtime overhead. Problem (i) (network dependence) was already solved in 2019 by MANA’s introduction of split processes. Problem (ii) (efficient runtime overhead) is solved in this work. This paper introduces an approach that avoids these limitations, employing a novel topological sort to algorithmically determine a safe future synchronization point. We demonstrate the efficacy and scalability of our approach through both micro-benchmarks and a set of five real-world MPI applications, notably including the widely used VASP (Vienna Ab Initio Simulation Package), which is responsible for 11% of the workload on the Perlmutter supercomputer at Lawrence Berkley National Laboratory. VASP was previously cited as a special challenge for checkpointing, in part due to its multi-algorithm codes.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div style="clear: both;"></div>
             </div>
