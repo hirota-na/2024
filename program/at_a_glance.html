@@ -1589,8 +1589,102 @@
             </div>
             <div class="timeslot"><h3 class="session-time">11:30-13:00</h3>
                 <div class="program-session">
-                    <div class="session-title">Session (9)</div>
+                    <div class="session-title">Session (9) Accelerators & In-Network Computing</div>
                     <div class="room-name">International Conference Room</div>
+                    <div class="session-chair">Chair: TBD</div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s9ta1_info" title="#s9ta1_title">
+                            FT K-Means: A High-Performance K-Means on GPU with Fault Tolerance
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s9ta1_title">
+                                    FT K-Means: A High-Performance K-Means on GPU with Fault Tolerance
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s9ta1_info">
+                                            <div class="author-names">
+                                            Shixun Wu (University of California, Riverside), Yitong Ding (Xi’an Jiaotong University), Zizhong Chen (University of California, Riverside)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        K-Means is a widely used algorithm in clustering, however, its efficiency is primarily constrained by the computational cost of distance computing. Existing implementations suffer from suboptimal utilization of computational units and lack resilience against soft errors. To address these challenges, we introduce FT K-Means, a high-performance GPU-accelerated implementation of K-Means with online fault tolerance. We first present a stepwise optimization strategy that achieves competitive performance compared to NVIDIA's cuML library. We further improve FT K-Means with a template-based code generation framework that supports different data types and adapts to different input shapes. A novel warp-level tensor-core error correction scheme is proposed to address the failure of existing fault tolerance methods due to memory asynchronization during copy operations. Our experimental evaluations on NVIDIA T4 and A100 GPUs demonstrate that FT K-Means without fault tolerance outperforms cuML's K-Means implementation, showing a performance increase of 10\%-300\% in scenarios involving irregular data shapes. Moreover, the fault tolerance feature of FT K-Means introduces only an overhead of 11\%, maintaining robust performance even with tens of errors injected per second.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s9ta2_info" title="#s9ta2_title">
+                            ScalFrag: Efficient Tiled-MTTKRP with Adaptive Launching on GPUs
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s9ta2_title">
+                                    ScalFrag: Efficient Tiled-MTTKRP with Adaptive Launching on GPUs
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s9ta2_info">
+                                            <div class="author-names">
+                                            Wenqing Lin (China University of Petroleum-Beijing), Hemeng Wang (China University of Petroleum-Beijing), Haodong Deng (China University of Petroleum-Beijing), Qingxiao Sun (China University of Petroleum-Beijing)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Among the various methods employed for tensor decomposition, Canonical Polyadic Decomposition (CPD) stands out as a prominent choice, widely embraced across numerous scientific disciplines and practical applications due to its effectiveness in capturing multi-linear relationships. However, the computational efficacy of CPD is significantly hampered by the Matricized Tensor Times Khatri-Rao Product (MTTKRP) operation, which constitutes its primary bottleneck. While offloading the MTTKRP computation onto Graphics Processing Units (GPUs) has emerged as a prevalent strategy to leverage their parallel processing capabilities for enhancing performance, the inherent sparsity and irregular data access patterns intrinsic to these operations introduce new complexities. Addressing this challenge, we introduce an innovative methodology designed to accelerate sparse MTTKRP computations on GPU platforms. A key insight underlying our approach is the recognition that the optimal kernel launch configuration—a critical factor influencing GPU performance—varies considerably depending on the unique characteristics of the input tensor. We devise a dynamic kernel launch configuration selection mechanism to tackle this variability. This novel strategy autonomously identifies and applies the most advantageous launch setup tailored to each input tensor, optimizing computational efficiency. Additionally, we present a stream-based algorithm for sparse MTTKRP, further refining data access methodologies. By leveraging streaming architectures, our algorithm significantly improves data access efficiency, mitigating the bottlenecks assoiciated with the irregularities of sparse data accesses. The experimental results show that ScalFrag can find better performing settings with higher auto-tuning speed compared to the state-of-the-art works.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s9ta3_info" title="#s9ta3_title">
+                            Leveraging high-performance data transfer to offload data management tasks to SmartNICs
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s9ta3_title">
+                                    Leveraging high-performance data transfer to offload data management tasks to SmartNICs
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s9ta3_info">
+                                            <div class="author-names">
+                                            Scott Levy (Sandia National Laboratories), Whit Schonbein (Sandia National Laboratories), Craig Ulmer (Sandia National Laboratories)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Network interface controllers (NICs) with general- purpose compute capabilities (‘SmartNICs’) present an oppor- tunity for reducing host application overheads by offloading non-critical tasks to the NIC. In addition to moving computa- tion, offloading requires that associated data associated is also transferred to the NIC. To meet this need, we introduce a high-performance, general-purpose data movement service that facilitates the offloading of tasks to SmartNICs: The SmartNIC Data Movement Service (SDMS). SDMS provides near-line- rate transfer bandwidths between the host and NIC. Moreover, SDMS’s In-transit Data Placement (IDP) feature can reduce (or even eliminate) the cost of serializing data on the NIC by performing the necessary data formatting during the transfer. To illustrate these capabilities, we provide in-depth case study using SDMS to offload data management operations related to Apache Arrow, a popular data format standard. For single-column tables, SDMS can achieve more than 87% of baseline throughput for data buffers that are 128 KiB or larger (and more than 95% of baseline throughput for buffers that are 1 MiB or larger) while also nearly eliminating the host and SmartNIC overhead associated with Arrow operations.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="hr">
                     <hr/>
