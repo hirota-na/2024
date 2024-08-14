@@ -923,6 +923,7 @@
                 <div class="program-session">
                     <div class="session-title">Session (3) Networks & Communication</div>
                     <div class="room-name">International Conference Room</div>
+                    <div class="session-chair">Chair: TBD</div>
                     <div class="slot-title">
                         <div class="slot-wrapper">
                             <span class="ttip_object_info_very_wide" rel="#s3ta1_info" title="#s3ta1_title">
@@ -1021,8 +1022,102 @@
                     <hr/>
                 </div>
                 <div class="program-session">
-                    <div class="session-title">Session (4)</div>
+                    <div class="session-title">Session (4) Numerical Libraries</div>
                     <div class="room-name">Room 401/402</div>
+                    <div class="session-chair">Chair: TBD</div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s4ta1_info" title="#s4ta1_title">
+                            Uncut-GEMMs : Communication-aware matrix multiplication on multi-GPU nodes
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s4ta1_title">
+                                    Uncut-GEMMs : Communication-aware matrix multiplication on multi-GPU nodes
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s4ta1_info">
+                                            <div class="author-names">
+                                            Petros Anastasiadis (National Technical University of Athens), Nikela Papadopoulou (University of Glasgow), Nectarios Koziris (National Technical University of Athens), Georgios Goumas (National Technical University of Athens)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        General Matrix Multiplication (GEMM) is one of the most common kernels in high-performance computing (HPC) and machine-learning (ML) applications, frequently dominating their execution time, rendering its performance vital. As multi-GPU nodes have become common in modern HPC systems, GEMM is usually offloaded on GPUs as its compute-intensive nature is a good match for their architecture. On the other hand, despite the GEMM kernel itself being usually compute-bound, execution on multi-GPU systems also requires fine-grained communication and task scheduling to achieve optimal performance. While numerous multi-GPU level-3 BLAS libraries have faced these issues in the past, they are bound by older design concepts that are not necessarily applicable to modern multi-GPU clusters, resulting in considerable deviation from peak performance. In this work, we thoroughly analyze the current challenges regarding data movement, caching, and overlap of multi-GPU GEMM, and the shortcomings of previous solutions, and provide a fresh approach to multi-GPU GEMM optimization. We devise a static scheduler for GEMM, enabling a variety of algorithmic, communication, and auto-tuning optimizations, and integrate those in an end-to-end open-source multi-GPU GEMM library. Our library is evaluated on a multi-GPU NVIDIA HGX system with 8 NVIDIA A100 GPUs, achieving on average a 1.37x and 1.29x performance improvement over the state-of-the-art multi-GPU GEMM libraries, for double and single precision, respectively.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s4ta2_info" title="#s4ta2_title">
+                            Generating High-Performance FFT Code through MLIR Linalg Dialect and Micro-Kernel Optimization
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s4ta2_title">
+                                    Generating High-Performance FFT Code through MLIR Linalg Dialect and Micro-Kernel Optimization
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s4ta2_info">
+                                            <div class="author-names">
+                                            Yifei He (KTH Royal Institute of Technology), Stefano Markidis (KTH Royal Institute of Technology)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Fast Fourier Transform (FFT) libraries are an indispensable and critical component of any High-Performance Computing (HPC) software stacks. They are used in a large spectrum of applications, ranging from PDE solvers and signal spectral analysis. To design and develop the next-generation HPC FFT libraries, it is critical to leverage modern computer architectures, which include features such as SIMD operations, along with modern compiler infrastructure like MLIR and LLVM. In this work, we introduce FFTc 2.0, an MLIR-based domain-specific compilation framework for FFT. We have extended the MLIR Linalg dialect with FFT-specific operations to harness high-level tensor-based abstractions for FFT. These abstractions are ideal for articulating various FFT algorithms and facilitating formula rewriting for FFT decomposition and cache-friendly optimization. To achieve exceptional performance—particularly in response to the limited support for complex arithmetic in MLIR and the general-purpose compiler LLVM—we employ micro-kernels. These micro-kernels are designed to implement small-size FFT kernels for integration into larger FFTs. They utilize SIMD-friendly data layouts for complex arithmetic and feature optimized memory access patterns, enabling performance enhancements not achievable with standard compiler implementations. Our method achieves performance levels that are comparable to or surpass those of widely-used FFT libraries, such as FFTW. Additionally, it establishes a robust software infrastructure that facilitates further optimizations and supports additional hardware backends.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s4ta3_info" title="#s4ta3_title">
+                            Understanding Mixed Precision GEMM with MPGemmFI: Insights into Fault Resilience
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s4ta3_title">
+                                    Understanding Mixed Precision GEMM with MPGemmFI: Insights into Fault Resilience
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s4ta3_info">
+                                            <div class="author-names">
+                                            Bo Fang (Pacific Northwest National Laboratory), Xinyi Li (University of Utah), Harvey Dam (University of Utah), Cheng Tan (Google), Siva Kumar Sastry Hari (NVIDIA), Timothy Tsai (NVIDIA), Ignacio Laguna (Lawrence Livermore National Laboratory), Dingwen Tao (Indiana University), Ganesh Gopalakrishnan (University of Utah), Prashant J. Nair (University of British Columbia), Kevin Barker (Pacific Northwest National Laboratory), Ang Li (Pacific Northwest National Laboratory) 
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Emerging deep learning workloads urgently need fast general matrix multiplication (GEMM). Thus, one of the critical features of machine-learning-specific accelerators such as NVIDIA Tensor Cores, AMD Matrix Cores, and Google TPUs is the support of mixed-precision enabled GEMM. For DNN models, lower-precision \fp data formats and computation offer acceptable correctness but significant performance, area, and memory footprint improvement. While promising, the mixed-precision computation on error resilience remains unexplored. To this end, we develop a fault injection framework that systematically injects fault into the mixed-precision computation results. We investigate how the faults affect the accuracy of machine learning applications. Based on the characteristics of error resilience, we offer lightweight error detection and correction solutions that significantly improve the overall model accuracy by 75% if the models experience hardware faults. The solutions can be efficiently integrated into the accelerator's pipelines.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div style="clear: both;"></div>
             </div>
