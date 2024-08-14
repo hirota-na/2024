@@ -1345,8 +1345,102 @@
             </div>
             <div class="timeslot"><h3 class="session-time">15:30-17:00</h3>
                 <div class="program-session">
-                    <div class="session-title">Session (7)</div>
+                    <div class="session-title">Session (7) IoT, Cloud, and Data Center (2 of 2)</div>
                     <div class="room-name">International Conference Room</div>
+                    <div class="session-chair">Chair: TBD</div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s7ta1_info" title="#s7ta1_title">
+                            Enabling Workload-Driven Elasticity in MPI-based Ensembles
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s7ta1_title">
+                                    Enabling Workload-Driven Elasticity in MPI-based Ensembles
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s7ta1_info">
+                                            <div class="author-names">
+                                            Md Rajib Hossen (The University of Texas at Arlington), Vanessa Sochat (Lawrence Livermore National Laboratory), Abhik Sarkar (Lawrence Livermore National Laboratory), Mohammad A. Islam (The University of Texas at Arlington), Daniel Milroy (Lawrence Livermore National Laboratory)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Interdisciplinary workflows are evolving to accommodate the growing resource diversity and parallelism in modern computing systems. The necessity of integrating various components, including multi-scale simulations and Artificial Intelligence and Machine Learning (AI/ML) with ensemble methods, has made the workflows increasingly complex and challenging to manage using traditional High-Performance Computing (HPC) infrastructure. Cloud computing provides capabilities such as container orchestration, automation, and elasticity to manage the growing heterogeneity, scale, and complexity of HPC systems and workflows. Converged computing, a growing movement that integrates HPC and cloud technologies into a seamless environment, can provide a means to bridge the gap between needs and capabilities. In particular, ensemble-based HPC workflows can benefit from the potential efficiency improvements afforded by these capabilities. While MPI-based (Message Passing Interface) workflows have been demonstrated to scale using cloud-native orchestration in Kubernetes, there is little work on understanding the impact of autoscaling and elasticity on MPI-based workflows. In this study, we explore the cost and performance of elasticity applied to ensembles of MPI-based HPC simulations using the Flux Operator. We propose a workload-driven autoscaling algorithm that outperforms CPU utilization-based autoscaling for MPI-based ensembles. The efficiency gains afforded by elastic, autoscaled approaches for MPI-based ensembles are described. We demonstrate that the workload-driven algorithm can reduce ensemble completion time by up to 6x in comparison with CPU utilization-based autoscaling.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s7ta2_info" title="#s7ta2_title">
+                            Geo-Distributed Analytical Streaming Architecture for IoT Platforms
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s7ta2_title">
+                                    Geo-Distributed Analytical Streaming Architecture for IoT Platforms
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s7ta2_info">
+                                            <div class="author-names">
+                                            Mohammadreza Hoseinyfarahabady (The University of Sydney), Albert Y. Zomaya (The University of Sydney)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        The surge in real-time IoT data poses scalability and computational challenges, prompting the need for advanced architectural and technological solutions. Streamed data processing is increasingly adopted across industries, enhancing operational efficiency by extracting insights from vast, unstructured datasets. However, complex analytical tasks, like multi-join queries, often require stateful iterative calculations on high-volume, high-velocity data, challenging conventional programming models like MapReduce. This paper introduces an architectural model for application developers to create intricate streaming computational logic within an IoT platform. Our architecture supports scalable applications across distributed edge-tier nodes, particularly for iterative analytical operations on streamed data in near real-time. We discuss core concepts and a timestamp model attached to data items circulating between computational blocks, which can execute concurrently on different edge-tier nodes. Additionally, we detail a buffer management mechanism to dynamically adjust memory size in each computational block on nodes with limited capacity. This mechanism considers application performance requirements and runtime conditions to optimize buffer sizes. Performance evaluation against cloud-tier alternatives confirms the effectiveness of our solution. Experimental results show a 62\% reduction in p-99 delay compared to cloud-tier deployment with a database engine for analytical applications involving multi-join operations.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s7ta3_info" title="#s7ta3_title">
+                            Seastar: A Cache-Efficient and Load-Balanced Key-Value Store on Disaggregated Memory
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s7ta3_title">
+                                    Seastar: A Cache-Efficient and Load-Balanced Key-Value Store on Disaggregated Memory
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s7ta3_info">
+                                            <div class="author-names">
+                                            Jingwen Du (Huazhong University of Science and Technology), Fang Wang (Huazhong University of Science and Technology), Dan Feng (Huazhong University of Science and Technology), Dexin Zeng (Huazhong University of Science and Technology), Sheng Yi (Huazhong University of Science and Technology)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        In modern datacenters, memory disaggregation unpacks monolithic servers to build independent network-connected compute and memory pools, greatly improving resource utilization. Existing disaggregated memory systems adopt ownership sharing or ownership partitioning and they all show poor performance and scalability. The former generates multiple cache misses and multiple network round trips due to poor cache locality, while the latter fails to fully use resources on all CNs due to load imbalance. In this paper, we propose Seastar, a fast and scalable key-value store that achieves high cache locality as well as load balancing. To enable high concurrency and ensure linearizability, Seastar exploits a self-verification version chain to provide out-of-place atomic updates and ensure consistent reads. To improve cache locality, Seastar leverages a pair-based ownership assigning scheme to assign the processing permission of requests corresponding to each key to a CN pair through two independent hash functions. To ensure load balancing among CNs, Seastar proposes a decentralized power-of-two-choices routing scheme to route the requests to the less-loaded CNs in CN pairs for handling. Experimental results demonstrate that Seastar improves the throughput by up to 6.7x and significantly reduces the latency compared with state-of-the-art systems.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="hr">
                     <hr/>
