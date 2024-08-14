@@ -1446,8 +1446,102 @@
                     <hr/>
                 </div>
                 <div class="program-session">
-                    <div class="session-title">Session (8)</div>
+                    <div class="session-title">Session (8) Job Scheduling & Orchestration</div>
                     <div class="room-name">Room 401/402</div>
+                    <div class="session-chair">Chair: TBD</div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s8ta1_info" title="#s8ta1_title">
+                            HEFTLess: A Bi-Objective Serverless Workflow Batch Orchestration on the Computing Continuum
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s8ta1_title">
+                                    HEFTLess: A Bi-Objective Serverless Workflow Batch Orchestration on the Computing Continuum
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s8ta1_info">
+                                            <div class="author-names">
+                                            Reza Farahani (University of Klagenfurt), Narges Mehran (University of Klagenfurt), Sashko Ristov (University of Innsbruck), Radu Prodan (University of Klagenfurt)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Extending cloud computing towards fog and edge computing yields a heterogeneous computing environment known as computing continuum. In recent years, increasing demands for scalable, cost-effective, and streamlined maintenance services have led application and service providers to prefer serverless models over monolithic and serverful processing. However, orchestrating the computing continuum in complex application workflows of serverless functions, each with distinct requirements, introduces new resource management and scheduling challenges. This paper introduces an orchestration service for concurrent serverless workflow processing across the computing continuum called HEFTLess. HEFTLess uses two deployment modes tailored to serve each workflow functions: predeployed and undeployed. We formulate the problem as a Binary Linear Programming (BLP) optimization model, incorporating multiple groups of constraints to minimize the overall completion time and monetary cost of executing workflow batches. Inspired by the Heterogeneous Earliest Finish Time (HEFT) algorithm, we propose a lightweight serverless workflow scheduling heuristic to cope with the high optimization time complexity in polynomial time. We evaluate HEFTLess using two machine learning-based serverless workflows on a real computing continuum testbed, including AWS Lambda and 325 combined on-promise and cloud instances from Exoscale, distributed across five geographic locations. The experimental results confirm that HEFTLess outperforms state-of-the-art methods in terms of both workflow batch completion time and cost.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s8ta2_info" title="#s8ta2_title">
+                            Job Scheduling in High Performance Computing Systems with Disaggregated Memory Resources
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s8ta2_title">
+                                    Job Scheduling in High Performance Computing Systems with Disaggregated Memory Resources
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s8ta2_info">
+                                            <div class="author-names">
+                                            Jie Li (Texas Tech University), George Michelogiannakis (Lawrence Berkeley National Laboratory), Samuel Maloney (Forschungszentrum Jülich), Brandon Cook (Lawrence Berkeley National Laboratory), Estela Suarez (Forschungszentrum Jülich), John Shalf (Lawrence Berkeley National Laboratory), Yong Chen (Texas Tech University)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Disaggregated memory promises to meet applications' growing memory requirements while improving system resource utilization in high performance computing (HPC) systems. Compared to traditional systems where expensive resources such as CPUs, GPUs, and memories are assigned in units of nodes to jobs, systems with disaggregated memory introduce memory pools that can be shared among jobs; this fundamentally changes the goals of the job scheduler. In this paper, we propose a data-driven approach to evaluate job scheduling and resource configuration in HPC systems with disaggregated memory. To incorporate the memory requirement of jobs for both local and disaggregated memory resources and improve the system efficiency in open-science HPC systems, we introduce a novel job scheduling algorithm called FM. Our simulation results show that FM outperforms commonly-used job schedulers in terms of job bounded slowdown when the shared memory pool capacity is limited and in fairness under all conditions.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s8ta3_info" title="#s8ta3_title">
+                            Fully Decentralized Data Distribution for Exascale-HPC: End of the Provider-Demander Matching Puzzle
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s8ta3_title">
+                                    Fully Decentralized Data Distribution for Exascale-HPC: End of the Provider-Demander Matching Puzzle
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s8ta3_info">
+                                            <div class="author-names">
+                                            Mingtian Shao (National University of Defense Technology, China), Ruibo Wang (National University of Defense Technology, China), Kai Lu (National University of Defense Technology, China), Huijun Wu (National University of Defense Technology, China), Yiqin Dai (National University of Defense Technology, China), Wenzhe Zhang (National University of Defense Technology, China)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        For many years, in the HPC data distribution scenario, as the scale of the HPC system continues to increase, manufacturers have to increase the number of data providers to improve the IO parallelism to match the data demanders. In the era of Exascale Computing, this mode of decoupling the demander and provider has limited scalability and huge costs. In our view, only a distribution model in which the demander also acts as the provider can fundamentally cope with changes in scale and have the best scalability, which is called all-to-all data distribution mode in this paper. We design and implement the BitTorrent protocol on computing networks in HPC systems and propose FD3, a fully decentralized data distribution method. We design the Requested-to-Validated Table (RVT) and the Nearest and Longest consecutive piece Segment First (NLSF) policy based on the features of the HPC networking environment to improve the performance of FD3. Experimental results show that FD3 can scale smoothly to 11K+ computing nodes, and its performance is much better than that of the parallel file system. Compared with the original BitTorrent, the performance is improved by 7-11 times. FD3 shows the great potential of the all-to-all model in HPC data distribution scenarios. At the same time, the work of this paper can further stimulate the exploration of future distributed parallel file systems and provide a foundation and inspiration for the design of data access patterns for Exscale HPC systems.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div style="clear: both;"></div>
             </div>
