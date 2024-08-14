@@ -1576,7 +1576,7 @@
 
             <div class="timeslot"><h3 class="session-time">9:30-11:00</h3>
                 <div class="program-session">
-                    <div class="session-title">CLUSTER 2025 & Keynote (3)</div>
+                    <div class="session-title">CLUSTER 2025 Presentation & Keynote (3)</div>
                     <div class="room-name">International Conference Room</div>
                 </div>
                 <div style="clear: both;"></div>
@@ -1690,8 +1690,102 @@
                     <hr/>
                 </div>
                 <div class="program-session">
-                    <div class="session-title">Session (10)</div>
+                    <div class="session-title">Session (10) Workflows</div>
                     <div class="room-name">Room 401/402</div>
+                    <div class="session-chair">Chair: TBD</div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s10ta1_info" title="#s10ta1_title">
+                            DaYu: Optimizing Distributed Scientific Workflows by Decoding Dataflow Semantics and Dynamics
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s10ta1_title">
+                                    DaYu: Optimizing Distributed Scientific Workflows by Decoding Dataflow Semantics and Dynamics
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s10ta1_info">
+                                            <div class="author-names">
+                                            Meng Tang (Illinois Institute of Technology), Jaime Cernuda (Illinois Institution of Technology), Jie Ye (Illinois Institution of Technology), Luanzheng Guo (Pacific Northwest National Laboratory), Nathan R. Tallent (Pacific Northwest National Laboratory), Anthony Kougkas (Illinois Institute of Technology), Xian-He Sun (Illinois Institute of Technology)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        The combination of ever-growing scientific datasets and distributed workflow complexity creates I/O performance bottlenecks due to data volume, velocity, and variety. Although the increasing use of descriptive data formats (e.g., HDF5, netCDF) helps organize these datasets, it also creates obscure bottlenecks due to the need to translate high level operations into file addresses and then into low-level I/O operations. To address this challenge, we introduce DaYu, a method and toolset for analyzing (a) semantic relationships between logical datasets and file addresses, (b) how dataset operations translate into I/O, and (c) the combination across entire workflows. DaYu's analysis and visualization enables identification of critical bottlenecks and reasoning about remediation. We describe our methodology and propose optimization guidelines. Evaluation on scientific workflows demonstrates up to 3.7x performance improvements in I/O time for obscure bottlenecks. The time and storage overhead for DaYu's time-ordered data is typically under 0.2% of runtime and 0.25% of data volume, respectively.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s10ta2_info" title="#s10ta2_title">
+                            Sizey: Memory-Efficient Execution of Scientific Workflow Tasks
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s10ta2_title">
+                                    Sizey: Memory-Efficient Execution of Scientific Workflow Tasks
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s10ta2_info">
+                                            <div class="author-names">
+                                            Jonathan Bader (Technische Universität Berlin), Fabian Skalski (Technische Universität Berlin), Fabian Lehmann (Humboldt-Universität zu Berlin), Dominik Scheinert (Technische Universität Berlin), Jonathan Will (Technische Universität Berlin), Lauritz Thamsen (University of Glasgow), Odej Kao (Technische Universität Berlin)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        As the amount of available data continues to grow in fields as diverse as bioinformatics, physics, and remote sensing, the importance of scientific workflows in the design and implementation of reproducible data analysis pipelines increases. When developing workflows, resource requirements must be defined for each type of task in the workflow. Typically, task types vary widely in their computational demands because they are simply wrappers for arbitrary black-box analysis tools. Furthermore, the resource consumption for the same task type can vary considerably as well due to different inputs. Since underestimating memory resources leads to bottlenecks and task failures, workflow developers tend to overestimate memory resources. However, overprovisioning of memory wastes resources and limits cluster throughput. Addressing this problem, we propose Sizey, a novel online memory prediction method for workflow tasks. During workflow execution, Sizey simultaneously trains multiple machine learning models and then dynamically selects the best model for each workflow task. To evaluate the quality of the model, we introduce a novel resource allocation quality (RAQ) score based on memory prediction accuracy and efficiency. Sizey's prediction models are retrained and re-evaluated online during workflow execution, continuously incorporating metrics from completed tasks. Our evaluation with a prototype implementation of Sizey uses metrics from five real-world scientific workflows from the popular nf-core framework and shows a median reduction in memory waste over time of 19.25% compared to the best-performing state-of-the-art baseline.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s10ta3_info" title="#s10ta3_title">
+                            Phase-based Data Placement Optimization in Heterogeneous Memory
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s10ta3_title">
+                                    Phase-based Data Placement Optimization in Heterogeneous Memory
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s10ta3_info">
+                                            <div class="author-names">
+                                            Jannis Klinkenberg (RWTH Aachen University), Clément Foyer (Université de Reims Champagne-Ardenne), Pierre Clouzet (Université de Bordeaux), Brice Goglin (Université de Bordeaux), Emmanuel Jeannot (Université de Bordeaux), Christian Terboven (RWTH Aachen University), Anara Kozhokanova (RWTH Aachen University)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        While scientific applications show increasing demand for memory speed and capacity, the performance gap between compute cores and the memory subsystem continues to spread. In response, heterogeneous memory systems integrating high-bandwidth memory (HBM) and non-volatile memory (NVM) alongside traditional DRAM are gaining traction. Despite the potential benefits of optimized memory selection for improved performance and efficiency, adapting applications to leverage diverse memory types often requires extensive modifications. Moreover, applications often comprise multiple execution phases with varying data access patterns. Since the capacity of the ``fastest'' memory is limited, relying solely on fixed data placement decisions may not yield optimal performance. Thus, considering allocation lifetimes and dynamically migrating data between memory types becomes imperative to ensure that performance-critical data for each phase resides in fast memory. To address these challenges, we developed a workflow incorporating memory access profiling, optimization techniques and a runtime system, which selects initial data placement for allocations and performs data migration during execution, considering the platform’s memory subsystem characteristics and capacities. We formalize the optimization problems for initial and phase-based data placement and propose heuristics derived from memory profiling metrics to solve it. Additionally, we outline the implementation of these approaches, including allocation interception to enforce placement decisions. Experiments conducted with several applications on an Intel Ice Lake (DRAM+NVM) and Sapphire Rapids (HBM+DRAM) system demonstrate that our methodology can effectively bridge the performance gap between slow and fast memory in heterogeneous memory environments.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div style="clear: both;"></div>
             </div>
