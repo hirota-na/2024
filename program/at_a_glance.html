@@ -854,12 +854,12 @@
                             </span>
                             <div class="info_link_object_info" style="display: none;">
                                 <div>
-                                    <b id="s2ta2_title">
+                                    <b id="s2ta3_title">
                                     Automated approach for accurate CPU power modelling
                                     </b>
                                     <hr/>
                                     <div>
-                                        <div id="s2ta2_info">
+                                        <div id="s2ta3_info">
                                             <div class="author-names">
                                             Tomé Maseda (Universidade da Coruña), Jonatan Enes (Universidade da Coruña), Roberto R. Expósito (Universidade da Coruña), Juan Touriño (Universidade da Coruña)
                                             </div>
@@ -921,8 +921,101 @@
             </div>
             <div class="timeslot"><h3 class="session-time">11:00-12:30</h3>
                 <div class="program-session">
-                    <div class="session-title">Session (3)</div>
+                    <div class="session-title">Session (3) Networks & Communication</div>
                     <div class="room-name">International Conference Room</div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s3ta1_info" title="#s3ta1_title">
+                            MPI Collective Algorithm Selection in the Presence of Process Arrival Patterns
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s3ta1_title">
+                                    MPI Collective Algorithm Selection in the Presence of Process Arrival Patterns
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s3ta1_info">
+                                            <div class="author-names">
+                                            Majid Salimi Beni (University of Salerno), Biagio Cosenza (University of Salerno), Sascha Hunold (TU Wien)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        The Message Passing Interface (MPI) is a programming model for developing high-performance applications on large-scale machines. A key element of MPI is its collective communication operations. While the MPI standard defines the semantics of these operations, it leaves the algorithmic implementation to the MPI libraries. Each MPI library contains various algorithms for each collective, and selecting the best algorithm typically relies on performance metrics obtained from micro-benchmarks. In such micro-benchmarks, processes are typically synchronized using MPI_Barrier before invoking a collective operation. However, in real-world scenarios, processes often arrive at a collective in diverse patterns, often due to resource contention. The performance of collective algorithms can vary significantly depending on the arrival pattern type. In this work, we address the challenge of selecting the most efficient algorithm for a given collective, taking into account process arrival patterns. First, we demonstrate through a simulation study that arrival patterns significantly influence the choice of the optimal collective algorithm for specific communication instances. Second, we conduct a comprehensive micro-benchmark analysis to illustrate the sensitivity of MPI collectives to these arrival patterns. Third, we show that our innovative micro-benchmarking methodology is effective in selecting the best-performing collective algorithm for real-world applications.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s3ta2_info" title="#s3ta2_title">
+                            Optimizing Neighbor Collectives with Topology Objects
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s3ta2_title">
+                                    Optimizing Neighbor Collectives with Topology Objects
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s3ta2_info">
+                                            <div class="author-names">
+                                            Gerald Collom (University of New Mexico), Derek Schafer (University of New Mexico), Amanda Bienz (University of New Mexico), Patrick Bridges (University of New Mexico), Galen Shipman (Los Alamos National Laboratory)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Many HPC applications implement non-cartesian neighbor data exchanges using MPI point-to-point operations rather than utilizing native MPI neighbor collective methods. Each application must therefore implement their own communication optimizations, rather than leveraging any optimizations that could be provided by MPI. Currently, applications avoid neighbor collectives due to the lack of performance optimizations within them along with large costs associated with graph communicator formation. This paper presents a new approach for creating local, non-cartesian topology objects that provide finer control over the aforementioned setup costs, which can be deferred until additional information about how and how often the topology will be used is available. Additionally, these first-class MPI topology objects enable communication optimizations through locality-awareness within the neighborhood collective initialization call, and optimize iterative communication calls through aggregation. This paper describes our implementation within an MPI extension library and demonstrates the effectiveness of our approach in simple benchmarks and real-world applications.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s3ta3_info" title="#s3ta3_title">
+                            A Topology- and Load-Aware Design for Neighborhood Collectives
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s3ta3_title">
+                                    A Topology- and Load-Aware Design for Neighborhood Collectives
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s3ta3_info">
+                                            <div class="author-names">
+                                            Hamed Sharifian (Queen's University), Amirhossein Sojoodi (Queen's University), Ahmad Afsahi (Queen's University)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Neighborhood collective communications were introduced in MPI 3.0 to enable application developers to define new communication patterns and take advantage of the sparsity in the communication patterns of applications. In this research, we propose a novel topology- and load-aware distance-halving design for neighborhood allgather. In this algorithm, each rank recursively halves the communicator and finds an agent on the opposite half to offload its outgoing neighbors. This approach limits communication with distant ranks, thereby decreasing the latency of neighborhood allgather. Our experimental study demonstrates that the algorithm can outperform the default implementation of Open MPI with up to a 33x speedup for various message sizes in both Moore and Random-Sparse-Graph micro-benchmarks. Furthermore, our design exhibits up to 4.92x performance gain for the Sparse Matrix Multiplication Kernel.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="hr">
                     <hr/>
