@@ -1137,8 +1137,102 @@
             </div>
             <div class="timeslot"><h3 class="session-time">13:30-15:00</h3>
                 <div class="program-session">
-                    <div class="session-title">Session (5)</div>
+                    <div class="session-title">Session (5) IoT, Cloud, and Data Center (1 of 2)</div>
                     <div class="room-name">International Conference Room</div>
+                    <div class="session-chair">Chair: TBD</div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s5ta1_info" title="#s5ta1_title">
+                            Parallelism or Fairness? How to be friendly for SSDs in cloud environments
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s5ta1_title">
+                                    Parallelism or Fairness? How to be friendly for SSDs in cloud environments
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s5ta1_info">
+                                            <div class="author-names">
+                                            Yang Zhou (Huazhong University of Science and Technology), Fang Wang (Huazhong University of Science and Technology), Zhan Shi (Huazhong University of Science and Technology), Dan Feng (Huazhong University of Science and Technology)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Modern SSDs achieve low latency and high throughput by utilizing multiple levels of SSD parallelism. In cloud environments, fairness is also a critical design consideration and has drawn great interest in recent years. However, we find that excessive SSD parallelism can inadvertently impair the fairness of SSDs due to the striped data layout. We observe from our experimental analysis that some common access patterns in cloud loads (e.g., high-intensity I/O) are not addressed by SSD parallelism, which can affect both SSD parallelism and fairness. In this paper, we analyze two address mapping policies with orthogonal characteristics from the perspectives of SSD parallelism and fairness. Based on extensive experiments and observations, we schedule a hybrid address mapping policy to achieve fairness of SSDs in cloud environments by distinguishing different I/O access modes and cold/hot data, while ensuring SSD performance. Experimental results on the latest block-level I/O traces show that our approach significantly improves performance and fairness by up to 77.3% and 62.8%, respectively, over the previous schemes with negligible cost. Meanwhile, it can also reduce the write amplification by 23.5% to 33.5%.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s5ta2_info" title="#s5ta2_title">
+                            SLACKVM: Packing Virtual Machines in Oversubscribed Cloud Infrastructures
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s5ta2_title">
+                                    SLACKVM: Packing Virtual Machines in Oversubscribed Cloud Infrastructures
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s5ta2_info">
+                                            <div class="author-names">
+                                            Pierre Jacquet (Inria), Thomas Ledoux (IMT Atlantique), Romain Rouvoy (Université de Lille)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Cloud providers generally expose a large catalog of Virtual Machines (VMs) offers, some being categorized as premium—guaranteeing dedicated resources—and others being hosted in oversubscribed environments, where virtual resources can exceed the physical capabilities of Physical Machines (PMs). The latter strategy is often employed to increase platform utilization, as hosted VMs are unlikely to fully utilize all their allocated resources simultaneously [1]. However, managing multiple oversubscribed VM levels introduces an additional layer of complexity for Cloud providers, often leading them to provision isolated clusters of PMs for each category of offers. In this paper, we introduce SLACKVM, a novel Cloud shared architecture wherein VMs from various oversubscription levels coexist on the same cluster of PMs. In particular, we demonstrate that oversubscription levels can be complementary, meaning they do not saturate the same resource components. By leveraging this complementarity, Cloud providers can couple multiple levels to better consolidate VMs offers onto PMs, and reduce the size of their clusters by up to 9.6%. This resource savings results in both an operational cost reduction and a reduced ecological footprint for Cloud infrastructures, with a limited impact on the Quality of Service (QoS).
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="slot-title">
+                        <div class="slot-wrapper">
+                            <span class="ttip_object_info_very_wide" rel="#s5ta3_info" title="#s5ta3_title">
+                            RL-Cache: An Efficient Reinforcement Learning based Cache Partitioning Approach for Multi-tenant CDN Services
+                            </span>
+                            <div class="info_link_object_info" style="display: none;">
+                                <div>
+                                    <b id="s5ta2_title">
+                                    RL-Cache: An Efficient Reinforcement Learning based Cache Partitioning Approach for Multi-tenant CDN Services
+                                    </b>
+                                    <hr/>
+                                    <div>
+                                        <div id="s5ta2_info">
+                                            <div class="author-names">
+                                            Ranhao Jia (Shanghai Jiao Tong University), Zixiao Chen (Shanghai Jiao Tong University), Chentao Wu (Shanghai Jiao Tong University), Jie Li (Shanghai Jiao Tong University), Minyi Guo (Shanghai Jiao Tong University), Hongwen Huang (Tencent Holdings Limited)
+                                            </div>
+                                            <div>
+                                                <div>Abstract
+                                                    <blockquote>
+                                                        <p>
+                                                        Content Delivery Network (CDN) has been widely used to provide data transmission services to end users. The edge cache servers are an important infrastructure in CDN, and their hit ratios significantly influence the Quality of Service (QoS), especially access latency and throughput. However, edge caches are typically shared by multiple tenants (i.e., Internet Content Providers or ICPs) and the resource contention among tenants presents a huge challenge to meet the QoS requirements. Cache partitioning is a common method to deal with this challenge, and several approaches have been proposed but still have some drawbacks. Existing methods bring non-negligible temporal and spatial overheads while obtaining locality metrics. Although some learning based methods have reduced aforementioned costs, the learning model convergence is slow due to the large searching space. To address the above problems, we propose a lightweight Reinforcement Learning based Cache Partitioning Approach (RL-Cache), which increases overall hit ratios of edge cache servers in CDN. The core of RL-Cache is a new feature named Compulsory Miss Ratio (CMR). It can be obtained in linear complexity and reflect directions for adjusting cache space. To demonstrate the effectiveness of our approach, we collect traces from Tencent Cloud CDN and develop a simulator to conduct several experiments. The experimental results show that compared to state-of-the-art methods, RL-Cache increases hit ratio by 1.94% and hit traffic size by 21.52% on average.
+                                                        </p>
+                                                    </blockquote>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
                 <div class="hr">
                     <hr/>
